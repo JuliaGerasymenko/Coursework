@@ -424,8 +424,6 @@ set.forEach((value, set) => {
       break;
   }
 });
-
-//////////////////////////////
 console.dir(bstAge.root);
 console.log('\nName\n');
 console.dir(bstName.root);
@@ -439,4 +437,3 @@ console.log(list17.printList());
 console.log('\nGroup\n');
 console.dir(bstGroup);
 console.log(listIp74.printList());
-console.log(set);
