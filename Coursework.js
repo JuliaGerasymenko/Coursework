@@ -373,7 +373,7 @@ set.forEach((value, set) => {
     bstAge.push(value.age);
     bstAge.doBalanced();
   }
-  console.log("bstAge");
+  console.log('bstAge');
   console.log(bstAge);
 
   switch (value.age) {
