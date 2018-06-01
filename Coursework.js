@@ -227,7 +227,7 @@ BinarySearchTree.prototype.push = function(value) {
   recurse(tree, index); //recurse(this);
 };
 ////////////////////end push///////////////////
-//для балансировки bstName
+/////////////для балансировки bstName
 ///////////////////Rotation//////////////
 BinarySearchTree.prototype.rotation = function() {
   const root = this.root;
@@ -264,6 +264,7 @@ BinarySearchTree.prototype.rotation = function() {
   this.root.index = 0;
   return this.root;
 };
+///////////Для балансировки bstAge и bstGroup//////////
 /////////////begin doBalanced/////////////
 BinarySearchTree.prototype.doBalanced = function() {
   const root = this.root;
@@ -338,7 +339,6 @@ BinarySearchTree.prototype.doBalanced = function() {
   return this.root;
 };
 //////////////////end doBalanced//////////////
-
 //////////////////begin contains//////////////////////
 BinarySearchTree.prototype.contains = function(value) {
   let doesContain = false;
@@ -363,7 +363,6 @@ set.forEach((value, set) => {
   bstName.rotation();//for names only
 });
 
-
 /////////////born///////////////////
 console.log('\nWork with Ages\n');
 const bstAge = new BinarySearchTree();
@@ -372,10 +371,10 @@ set.forEach((value, set) => {
   if (temp) {
     console.log(value.age);
     bstAge.push(value.age);
-    bstAge.doBalanced();//do tree balanced
-  }//only for age
-  console.log('bstAge');
-  console.log(bstAge);//console.log(value.age);
+    bstAge.doBalanced();
+  }
+  console.log("bstAge");
+  console.log(bstAge);
 
   switch (value.age) {
     case 16:
@@ -397,13 +396,11 @@ set.forEach((value, set) => {
 });
 //////////group//////////////////
 console.log('\nWork with Groups\n');
-
 const listIp71 = new List();
 const listIp72 = new List();
 const listIp73 = new List();
 const listIp74 = new List();
 const bstGroup = new BinarySearchTree();
-
 //////////////////////////////////
 set.forEach((value, set) => {
   if (!bstGroup.contains(value.group)) {
@@ -424,7 +421,8 @@ set.forEach((value, set) => {
       break;
   }
 });
-console.dir(bstAge.root);
+
+// console.dir(bstAge.root);
 console.log('\nName\n');
 console.dir(bstName.root);
 console.dir(bstName);
