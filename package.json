@@ -1,0 +1,19 @@
+{
+  "name": "autobalancing-tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Coursework.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliaGerasymenko/Coursework.git"
+  },
+  "author": "JuliaGerasymenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuliaGerasymenko/Coursework/issues"
+  },
+  "homepage": "https://github.com/JuliaGerasymenko/Coursework#readme"
+}

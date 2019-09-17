@@ -1,141 +1,157 @@
-"use strict";
+'use strict';
 
 const set = new Set([
   {
-    name: "Brumar Vladislav",
-    group: "IP-74",
-    age: 18
+    name: 'Brumar Vladislav',
+    group: 'IP-74',
+    age: 18,
   },
   {
-    name: "Gerasymenko Julia",
-    group: "IP-74",
-    age: 18
+    name: 'Gerasymenko Julia',
+    group: 'IP-74',
+    age: 18,
   },
   {
-    name: "Holub Anna",
-    group: "IP-74",
-    age: 18
+    name: 'Holub Anna',
+    group: 'IP-74',
+    age: 18,
   },
   {
-    name: "Hriny Artem",
-    group: "IP-74",
-    age: 18
+    name: 'Hriny Artem',
+    group: 'IP-74',
+    age: 18,
   },
   {
-    name: "Humeinuk Inna",
-    group: "IP-74",
-    age: 18
+    name: 'Humeinuk Inna',
+    group: 'IP-74',
+    age: 18,
   },
   {
-    name: "Denysiuk Daniil",
-    group: "IP-74",
-    age: 18
+    name: 'Denysiuk Daniil',
+    group: 'IP-74',
+    age: 18,
   },
   {
-    name: "Eivazova Tatiana",
-    group: "IP-74",
-    age: 18
+    name: 'Eivazova Tatiana',
+    group: 'IP-74',
+    age: 18,
   },
   {
-    name: "Zorenko Victoria",
-    group: "IP-74",
-    age: 17
+    name: 'Zorenko Victoria',
+    group: 'IP-74',
+    age: 17,
   },
   {
-    name: "Karkadim Sofia",
-    group: "IP-74",
-    age: 18
+    name: 'Karkadim Sofia',
+    group: 'IP-74',
+    age: 18,
   },
   {
-    name: "Kaspruk Nastia",
-    birth: new Date("2001-01-17"),
-    group: "IP-74",
-    age: 17
-  },
-  { name: "Korsyn Angelina ", group: "IP-74", age: 18 },
-  {
-    name: "Kobrii Stepan",
-    group: "IP-74",
-    age: 18
+    name: 'Kaspruk Nastia',
+    birth: new Date('2001-01-17'),
+    group: 'IP-74',
+    age: 17,
   },
   {
-    name: "Maksai Anna",
-    group: "IP-74",
-    age: 17
+    name: 'Korsyn Angelina',
+    group: 'IP-74',
+    age: 18,
   },
   {
-    name: "Mesheriakov Alexandriy",
-    group: "IP-74",
-    age: 18
+    name: 'Kobrii Stepan',
+    group: 'IP-74',
+    age: 18,
   },
   {
-    name: "Moroz Juriy",
-    group: "IP-74",
-    age: 20
+    name: 'Maksai Anna',
+    group: 'IP-74',
+    age: 17,
   },
   {
-    name: "Mushenko Dmytro",
-    group: "IP-74",
-    age: 19
+    name: 'Mesheriakov Alexandriy',
+    group: 'IP-74',
+    age: 18,
   },
   {
-    name: "Pereverziev Luka",
-    group: "IP-74",
-    age: 19
+    name: 'Moroz Juriy',
+    group: 'IP-74',
+    age: 20,
   },
   {
-    name: "Rabeshko Olexii",
-    group: "IP-74",
-    age: 18
+    name: 'Mushenko Dmytro',
+    group: 'IP-74',
+    age: 19,
   },
   {
-    name: "Simonchuk Bogdan",
-    group: "IP-74",
-    age: 19
-  },
-  { name: "Sivachenko Marina ", group: "IP-74", age: 19 },
-  { name: "Skrigun Vladislav", group: "IP-74", age: 18 },
-  { name: "Strachko Sergey ", group: "IP-74", age: 18 },
-  {
-    name: "Tarakhtii Nikita",
-    group: "IP-74",
-    age: 18
+    name: 'Pereverziev Luka',
+    group: 'IP-74',
+    age: 19,
   },
   {
-    name: "Tikhonov Stanislav",
-    group: "IP-74",
-    age: 17
+    name: 'Rabeshko Olexii',
+    group: 'IP-74',
+    age: 18,
   },
   {
-    name: "Fomin Vladislav",
-    group: "IP-74",
-    age: 18
+    name: 'Simonchuk Bogdan',
+    group: 'IP-74',
+    age: 19,
   },
   {
-    name: "Khilichenko Egor",
-    group: "IP-74",
-    age: 18
+    name: 'Sivachenko Marina',
+    group: 'IP-74',
+    age: 19,
   },
   {
-    name: "Chirko Yaroslav",
-    group: "IP-74",
-    age: 19
+    name: 'Skrigun Vladislav',
+    group: 'IP-74',
+    age: 18,
   },
   {
-    name: "Yashuk Anton",
-    group: "IP-74",
-    age: 18
+    name: 'Strachko Sergey ',
+    group: 'IP-74',
+    age: 18,
   },
   {
-    name: "Yarema Anastasia",
-    group: "IP-74",
-    age: 18
+    name: 'Tarakhtii Nikita',
+    group: 'IP-74',
+    age: 18,
   },
   {
-    name: "Yashenko Illia",
-    group: "IP-74",
-    age: 18
-  }
+    name: 'Tikhonov Stanislav',
+    group: 'IP-74',
+    age: 17,
+  },
+  {
+    name: 'Fomin Vladislav',
+    group: 'IP-74',
+    age: 18,
+  },
+  {
+    name: 'Khilichenko Egor',
+    group: 'IP-74',
+    age: 18,
+  },
+  {
+    name: 'Chirko Yaroslav',
+    group: 'IP-74',
+    age: 19,
+  },
+  {
+    name: 'Yashuk Anton',
+    group: 'IP-74',
+    age: 18,
+  },
+  {
+    name: 'Yarema Anastasia',
+    group: 'IP-74',
+    age: 18,
+  },
+  {
+    name: 'Yashenko Illia',
+    group: 'IP-74',
+    age: 18,
+  },
 ]);
 
 class ListForNode {
@@ -144,6 +160,7 @@ class ListForNode {
     this.next = null;
   }
 }
+
 class List {
   constructor() {
     this.length = 0;
@@ -184,14 +201,13 @@ const list17 = new List();
 const list18 = new List();
 const list19 = new List();
 const list20 = new List();
-//////////////////end LinkedList///////////////////////
-//////////////////start Binary Search Tree///////////////
+
 class Node {
-  constructor(value, index) {
+  constructor(value) {
     this.value = value;
     this.left = null;
     this.right = null;
-    this.index = index;
+    // this.index = index;
   }
 }
 
@@ -203,30 +219,30 @@ class BinarySearchTree {
   push(value) {
     const tree = this.root;
     if (!tree) {
-      this.root = new Node(value, 0);
+      this.root = new Node(value);
       return;
     }
-    function recurse(tree, index) {
+    function recurse(tree) {
       if (value < tree.value) {
         if (!tree.left) {
-          tree.left = new Node(value, index);
+          tree.left = new Node(value);
           return;
-        } else recurse(tree.left, index);
+        } else recurse(tree.left);
       } else if (!tree.right) {
-        tree.right = new Node(value, index);
+        tree.right = new Node(value);
         return;
-      } else recurse(tree.right, index);
+      } else recurse(tree.right);
     }
-    ////////////////////push right index///////////
-    let index;
-    if (value < tree.value) index = -1;
-    else index = 1;
-    recurse(tree, index); //recurse(this);
+
+    recurse(tree); //recurse(this);
   }
+  ///////rewrite rotation///////
   rotation() {
     const root = this.root;
-    let leftIndex = 0;
-    const rightIndex = 0;
+
+    let leftIndex = 0,
+      rightIndex = 0;
+
     function recurseLeft(tree) {
       if (tree !== null) {
         recurseLeft(tree.left);
@@ -234,7 +250,7 @@ class BinarySearchTree {
         recurseLeft(tree.right);
       }
     }
-    function recurseRight(tree, rightIndex) {
+    function recurseRight(tree) {
       if (tree !== null) {
         recurseRight(tree.left);
         rightIndex++;
@@ -243,7 +259,9 @@ class BinarySearchTree {
     }
     recurseLeft(root.left);
     recurseRight(root.right);
+
     const difference = leftIndex + rightIndex;
+
     if (difference === -2) {
       this.root = root.left;
       root.left = null;
@@ -255,92 +273,70 @@ class BinarySearchTree {
       this.root.left = root;
       root.index = -1;
     }
+
     this.root.index = 0;
     return this.root;
   }
+
   doBalanced() {
     const root = this.root;
-    let leftIndex = 0;
-    let rightIndex = 0;
-    function recurseLeft(tree) {
-      if (tree !== null) {
-        recurseLeft(tree.left);
-        leftIndex--;
-        recurseLeft(tree.right);
+
+    function maxDepth(root) {
+      if (!root) return 0;
+      return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
+    }
+
+    function minRightSubtree(root) {
+      if (root && !root.right) {
+        root = max.left;
+      } else {
+        minRightSubtree(root.right);
       }
     }
 
-    recurseLeft(root.left);
+    function maxLeftSubtree(root) {
+      if (root && !root.left) {
+        root = min.right;
+      } else {
+        maxLeftSubtree(root.left);
+      }
+    }
 
     function recurseRight(tree) {
       if (tree !== null) {
         recurseRight(tree.left);
-        rightIndex++;
         recurseRight(tree.right);
+        if (Math.abs((difference = subtreeDifference(tree))) >= 2) {
+        }
       }
     }
 
-    recurseRight(root.right);
-
-    function minimum(tree) {
-      if (!tree || !tree.left) return tree;
-      return minimum(tree.left);
-    }
-
-    function maximum(tree) {
-      if (!tree || !tree.right) return tree;
-      return maximum(tree.right);
-      //  recurseRight(root.right);
-    }
-    //  let root = this.root;
-    function recursiveRight(root) {
-      if (root && !root.right) {
-        root = max.left;
-      } else {
-        recursiveRight(root.right);
-      }
-    }
-
-    function recursiveLeft(root) {
-      if (root && !root.left) {
-        root = min.right;
-      } else {
-        recursiveLeft(root.left);
-      }
-    }
-
-    const difference = leftIndex + rightIndex;
+    const subtreeDifference = root =>
+      maxDepth(root.left) - maxDepth(root.right);
 
     if (!root.right || !root.left) {
       if (root.right && root.left) return root;
       this.rotation();
     } else {
-      const min = minimum(root.right);
-      const max = maximum(root.left);
-
-      while (Math.abs(difference) >= 2)
+      while (Math.abs((difference = subtreeDifference(root))) >= 2) {
         if (difference < 0) {
           this.root = max;
 
-          recursiveRight(root.left);
+          minRightSubtree(root.left);
 
           this.root.left = root.left;
           root.left = null;
           this.root.right = root;
-          root.index = 1;
         } else {
           this.root = min;
 
-          recursiveLeft(root.right);
+          maxLeftSubtree(root.right);
 
           this.root.right = root.right;
           root.right = null;
           this.root.left = root;
-          root.index = -1;
         }
-
-      this.root.index = 0;
-      return this.root;
+      }
     }
   }
 
@@ -360,14 +356,14 @@ class BinarySearchTree {
   }
 }
 
-console.log("\nWork with Names\n");
+console.log('\nWork with Names\n');
 const bstName = new BinarySearchTree();
 set.forEach((value, set) => {
   bstName.push(value.name);
   bstName.rotation();
 });
 
-console.log("\nWork with Ages\n");
+console.log('\nWork with Ages\n');
 const bstAge = new BinarySearchTree();
 
 set.forEach((value, set) => {
@@ -379,7 +375,7 @@ set.forEach((value, set) => {
     bstAge.doBalanced();
   }
 
-  console.log("bstAge");
+  console.log('bstAge');
   console.log(bstAge);
 
   switch (value.age) {
@@ -401,7 +397,7 @@ set.forEach((value, set) => {
   }
 });
 
-console.log("\nWork with Groups\n");
+console.log('\nWork with Groups\n');
 
 const listIp71 = new List();
 const listIp72 = new List();
@@ -415,30 +411,17 @@ set.forEach((value, set) => {
   }
 
   switch (value.group) {
-    case "IP-71":
+    case 'IP-71':
       listIp71.add(value.name);
       break;
-    case "IP-72":
+    case 'IP-72':
       listIp72.add(value.name);
       break;
-    case "IP-73":
+    case 'IP-73':
       listIp73.add(value.name);
       break;
-    case "IP-74":
+    case 'IP-74':
       listIp74.add(value.name);
       break;
   }
 });
-
-// console.dir(bstAge.root);
-console.log("\nName\n");
-console.dir(bstName.root);
-console.dir(bstName);
-// console.log(bstAge);
-console.log("18 years old");
-console.log(list18.printList());
-console.log("17 years old");
-console.log(list17.printList());
-console.log("\nGroup\n");
-console.dir(bstGroup);
-console.log(listIp74.printList());
