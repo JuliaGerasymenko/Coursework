@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/JuliaGerasymenko/Coursework#readme",
   "dependencies": {
-    "metatests": "^0.7.1"
+    "metatests": "^0.7.1",
+    "diff": ">=3.5.0"
   }
 }
