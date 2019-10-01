@@ -12,8 +12,7 @@ Exclude using of
 Apply recursion tree traversal instead of it.
 
 ## Goals
-Less memory used comparing with others realizations. If you have some a heap of data you shouldn't add each element and do rotation. 
-
+A balancing tree algorithm doesn't allocate extra memory for storing indices and additional data structures, memory has been used 20% less than before. If you have some a heap of data you shouldn't add each element and do rotation.
 ## Usage
 E.g. 
 If you have a mutable data, you can store it the a tree. This algorithm can be helpful for searching data with a complexity O(log n).
