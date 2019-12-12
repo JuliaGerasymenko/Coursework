@@ -1,7 +1,7 @@
 {
   "name": "autobalancing-tree",
   "version": "1.0.0",
-  "description": "",
+  "description": "A new look at tree balancing algorithm and different approach of a converting Binary Search Tree to **AVL**.",
   "main": "Coursework.js",
   "scripts": {
     "test": "eslint . && ./1.js",
@@ -19,7 +19,28 @@
   },
   "homepage": "https://github.com/JuliaGerasymenko/Coursework#readme",
   "dependencies": {
+    "diff": ">=3.5.0",
     "metatests": "^0.7.1",
-    "diff": ">=3.5.0"
+    "treeify": "^1.1.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "keywords": [
+    "avl_tree",
+    "search_logs"
+  ],
+  "devDependencies": {
+    "connect": "^3.7.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-livereload": "^4.0.2",
+    "gulp-myth": "^2.0.0",
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "^3.0.2"
   }
 }
