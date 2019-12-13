@@ -71,11 +71,11 @@ class BinarySearchTree {
               if (Math.abs(difference = subtreeDifference(root) >= 2))
               if (difference > 0) {
                 newRoot = root.left;
-                root.left = root.left.right ? root.left.right : null;
+                root.left = root.left.right;
                 newRoot.right = root;
               } else {
                 newRoot = root.right;
-                root.right = root.right.left ? root.right.left : null;
+                root.right = root.right.left;
                 newRoot.left = root;
               }
               root = newRoot;
@@ -89,9 +89,8 @@ class BinarySearchTree {
   }
 }
 
-let dataSet = new Set(Object.values(json));
 let keys = {};
-for (let obj of dataSet) {
+for (let obj of json) {
   for (let key in obj) {
     if (!keys.hasOwnProperty(key)) {
       keys[key] = new BinarySearchTree();
